@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import Navbar from './component/Navbar/Navbar';
-import Footer from './component/Footer/Footer';
-import Home from './pages/Home/Home';
-import Register from './pages/Register/Register';
-import Login from './pages/Login/Login'; 
-import Cart from './pages/Cart/Cart';
-import Hero from './component/Hero/Hero';
-import Contact from './component/Contact/Contact';
-import Discount from './component/Discount/Discount';
-import Admin from './pages/Admin/Admin';
+import Navbar from './Navbar';
+import Footer from './Footer';
+import Home from './Home';
+import Register from './Register';
+import Login from './Login'; 
+import Cart from './Cart';
+import Hero from './Hero';
+import Contact from './Contact';
+import Discount from './Discount';
+import Admin from './Admin';
 import './App.css';
 
 function App() {
